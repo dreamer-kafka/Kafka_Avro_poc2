@@ -1,0 +1,12 @@
+{
+  "namespace": "com.example",
+  "type": "record",
+  "name": "Customer",
+  "fields": [
+    {"name": "first_name","type": "string","doc": "Firstname of customer"},
+    {"name": "Last_name","type": "string","doc": "Lastname of customer"},
+    {"name": "Customer_id","type": "int","doc": "customer information"},
+    {"name": "plan","type": "string","default": "INACTIVE","doc":"Postpaid or prepaid plan"},
+    {"name": "automated_email","type": "boolean","default": true,"doc": "optional based on the customer preference"}
+  ]
+}

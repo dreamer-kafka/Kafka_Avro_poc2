@@ -1,0 +1,1 @@
+{"first_name": "sangeetha", "Last_name": "Gobinaath", "Customer_id": 15, "plan": "INACTIVE", "automated_email": false}
